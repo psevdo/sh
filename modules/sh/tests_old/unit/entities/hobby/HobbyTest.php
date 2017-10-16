@@ -1,13 +1,13 @@
 <?php
 
-namespace app\modules\sh\tests\unit\entities\hobby;
+// namespace app\modules\sh\tests\unit\entities\hobby;
 
 use app\modules\sh\entities\hobby\Hobby;
 use app\modules\sh\entities\hobby\HobbyId;
 use app\modules\sh\entities\hobby\HobbySex;
 use Codeception\Test\Unit;
 
-class HobbyTest extends Unit {
+class HobbyTest extends \yii\codeception\TestCase {
 	/**
 	 * @var \UnitTester
 	 */
